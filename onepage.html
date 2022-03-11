@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Patrick Artac Assignment 4</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h1>Student Management System</h1>
+        <nav>
+            <a href="a4_observations.html">Assignment 4 Observations </a>
+        </nav>
+        <br>
+        <table>
+            <tr><th>Name</th><th>Major</th><th>Year</th><th>Action</th></tr>
+            <tr>
+                <td><input type="text" id="name"></td>
+                <td> 
+                    <select id="program_id">
+                        <option value="1">Information Technology</option>
+                        <option value="2">Information Systems</option>
+                        <option value="3">Data Science / Informatics</option>
+                    </select>
+                </td>
+                <td><input type="text" id="start_year"></td>
+                <td><button id="btnAdd"> Add Record</button></td> 
+            </tr>
+        </table>
+        Status: <span id="status"></span>
+        <br>
+        <h2>Students in Database</h2>
+        <br>
+        <!-- Functional Button -->
+        <button id="btnReload">Reload All Student Records</button>
+        <!-- Display of Pressing Button -->
+        <ul id="records"></ul>
+    </body>
+</html>

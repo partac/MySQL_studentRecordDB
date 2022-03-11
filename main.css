@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(194, 194, 182);
+}
+
+body {
+    text-align: left;
+}
+
+ul {
+    list-style-type: square;
+  
+}
+
+h1 {
+    color: rgb(97, 20, 220);
+}
+
+h2 {
+    color: rgb(97, 20, 220);
+}
+
+h2 {
+    text-decoration: overline;
+  }
